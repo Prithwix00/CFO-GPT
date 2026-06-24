@@ -127,3 +127,141 @@ streamlit run fpna-agent\app.py --server.port 8502     # Use custom port
 fpna-agent/
 ├── app.py                              # Streamlit web UI
 ├── main.py                             # CLI entry point
+├── SETUP_AND_RUN.md                    # Setup guide (START HERE!)
+├── FIXES_APPLIED.md                    # Bug fixes documentation
+├── README.md                           # This file
+├── requirements_minimal.txt            # Minimal dependencies
+├── requirements.txt                    # Full dependencies
+├── config/
+│   ├── __init__.py
+│   └── settings.py                     # Configuration
+├── src/
+│   ├── agents/                         # AI agents
+│   │   ├── base_agent.py
+│   │   ├── monitor_agent.py
+│   │   ├── investigator.py
+│   │   └── reporter_agent.py
+│   ├── rag/                            # RAG system
+│   │   ├── loader.py
+│   │   ├── vector_store.py
+│   │   └── retriever.py
+│   ├── analysis/                       # Analysis engines
+│   │   ├── variance_engine.py
+│   │   └── trend_analyzer.py
+│   ├── workflows/                      # Main workflow
+│   │   └── fpa_workflow.py
+│   └── utils/                          # Utilities
+│       └── data_loader.py
+├── data/
+│   ├── sample_financial_data.json
+│   ├── uploads/                        # Document uploads
+│   ├── reports/                        # Generated reports
+│   ├── chroma_db/                      # Vector store
+│   └── cache/                          # Cache directory
+└── test_*.py                           # Test files
+```
+
+---
+
+## 📊 Output Examples
+
+The system generates comprehensive reports:
+
+### Budget Proposal (JSON)
+```json
+{
+  "department": "Marketing",
+  "account": "Advertising Expense",
+  "current_budget": 42226.42,
+  "actual_spend": 35402.42,
+  "variance_amount": -6824.00,
+  "proposed_budget": 38814.42,
+  "adjustment_amount": 3412.00,
+  "justification": "Based on 16.2% underspend...",
+  "confidence": 35.0
+}
+```
+
+### Executive Summary
+- Department-wise variance analysis
+- Root cause findings
+- Key recommendations
+- Risk assessment
+
+### Detailed Reports
+- Per-variance investigation results
+- Evidence and supporting documents
+- Confidence metrics
+- Action items
+
+---
+
+## 🚀 Example Workflow
+
+```powershell
+# 1. Setup
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements_minimal.txt
+
+# 2. Run analysis
+python fpna-agent\main.py --analyze
+
+# 3. View results
+dir fpna-agent\data\reports\
+
+# 4. (Optional) Launch web UI
+streamlit run fpna-agent\app.py
+```
+
+---
+
+## ✅ What You'll Get
+
+After running analysis:
+- ✅ 11 budget proposals (JSON + text format)
+- ✅ 1 executive summary
+- ✅ Multiple detailed variance reports
+- ✅ Root cause analysis for each variance
+- ✅ Actionable recommendations
+- ✅ Processing metrics and confidence levels
+
+---
+
+## 🐛 Known Issues
+
+See [FIXES_APPLIED.md](FIXES_APPLIED.md) for details on known issues and workarounds.
+
+### Troubleshooting
+For common issues and solutions, see the **Troubleshooting** section in [SETUP_AND_RUN.md](SETUP_AND_RUN.md)
+
+---
+
+## 📝 License
+
+[Add your license here - MIT, Apache 2.0, etc.]
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Test thoroughly
+4. Submit a pull request
+
+---
+
+## 📞 Support
+
+For issues, questions, or suggestions:
+- Check [SETUP_AND_RUN.md](SETUP_AND_RUN.md) for detailed troubleshooting
+- Review [FIXES_APPLIED.md](FIXES_APPLIED.md) for known issues
+- Open an issue on GitHub
+
+---
+
+**Status**: ✅ Production Ready  
+**Last Updated**: 2026-06-22  
+**Version**: 1.0
