@@ -1,0 +1,31 @@
+# Core HTTP
+requests==2.31.0
+aiohttp==3.9.1
+
+# LangChain (minimum)
+langchain
+langchain-core==0.1.33
+langchain-community==0.0.22
+langgraph==0.0.20
+
+# Vector DB
+chromadb==0.4.22
+sentence-transformers==2.2.2
+
+# UI
+streamlit==1.28.1
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# Document Processing
+pypdf==3.17.0
+python-docx==1.1.0
+
+# Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Visualization
+plotly==5.18.0

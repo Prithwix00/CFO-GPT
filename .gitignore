@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+
+venv/
+data/chroma_db/
+data/reports/
+data/uploads/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/

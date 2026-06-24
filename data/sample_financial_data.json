@@ -1,0 +1,252 @@
+[
+  {
+    "department": "Marketing",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2026-06",
+    "budget_amount": 54911.51,
+    "actual_amount": 61038.15,
+    "variance_amount": 6126.64,
+    "variance_percentage": 11.16
+  },
+  {
+    "department": "Marketing",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2026-06",
+    "budget_amount": 98912.16,
+    "actual_amount": 90012.36,
+    "variance_amount": -8899.8,
+    "variance_percentage": -9.0
+  },
+  {
+    "department": "Marketing",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2026-06",
+    "budget_amount": 97186.91,
+    "actual_amount": 86693.09,
+    "variance_amount": -10493.82,
+    "variance_percentage": -10.8
+  },
+  {
+    "department": "Marketing",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2026-06",
+    "budget_amount": 29205.9,
+    "actual_amount": 31602.64,
+    "variance_amount": 2396.74,
+    "variance_percentage": 8.21
+  },
+  {
+    "department": "Marketing",
+    "account_code": "5400",
+    "account_name": "Office Supplies",
+    "period": "2026-06",
+    "budget_amount": 47934.21,
+    "actual_amount": 50882.83,
+    "variance_amount": 2948.62,
+    "variance_percentage": 6.15
+  },
+  {
+    "department": "Sales",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2026-06",
+    "budget_amount": 75862.72,
+    "actual_amount": 71448.53,
+    "variance_amount": -4414.19,
+    "variance_percentage": -5.82
+  },
+  {
+    "department": "Sales",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2026-06",
+    "budget_amount": 42398.14,
+    "actual_amount": 40997.66,
+    "variance_amount": -1400.48,
+    "variance_percentage": -3.3
+  },
+  {
+    "department": "Sales",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2026-06",
+    "budget_amount": 32257.03,
+    "actual_amount": 34979.94,
+    "variance_amount": 2722.91,
+    "variance_percentage": 8.44
+  },
+  {
+    "department": "Sales",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2026-06",
+    "budget_amount": 72012.1,
+    "actual_amount": 78599.39,
+    "variance_amount": 6587.29,
+    "variance_percentage": 9.15
+  },
+  {
+    "department": "Sales",
+    "account_code": "5400",
+    "account_name": "Office Supplies",
+    "period": "2026-06",
+    "budget_amount": 39991.39,
+    "actual_amount": 46963.38,
+    "variance_amount": 6971.99,
+    "variance_percentage": 17.43
+  },
+  {
+    "department": "R&D",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2026-06",
+    "budget_amount": 55165.04,
+    "actual_amount": 54389.74,
+    "variance_amount": -775.3,
+    "variance_percentage": -1.41
+  },
+  {
+    "department": "R&D",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2026-06",
+    "budget_amount": 92443.77,
+    "actual_amount": 96290.32,
+    "variance_amount": 3846.55,
+    "variance_percentage": 4.16
+  },
+  {
+    "department": "R&D",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2026-06",
+    "budget_amount": 80205.3,
+    "actual_amount": 64650.89,
+    "variance_amount": -15554.41,
+    "variance_percentage": -19.39
+  },
+  {
+    "department": "R&D",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2026-06",
+    "budget_amount": 35083.34,
+    "actual_amount": 40523.89,
+    "variance_amount": 5440.55,
+    "variance_percentage": 15.51
+  },
+  {
+    "department": "R&D",
+    "account_code": "5400",
+    "account_name": "Office Supplies",
+    "period": "2026-06",
+    "budget_amount": 38150.76,
+    "actual_amount": 34597.18,
+    "variance_amount": -3553.58,
+    "variance_percentage": -9.31
+  },
+  {
+    "department": "Operations",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2026-06",
+    "budget_amount": 67078.66,
+    "actual_amount": 73126.99,
+    "variance_amount": 6048.33,
+    "variance_percentage": 9.02
+  },
+  {
+    "department": "Operations",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2026-06",
+    "budget_amount": 92343.32,
+    "actual_amount": 82244.97,
+    "variance_amount": -10098.35,
+    "variance_percentage": -10.94
+  },
+  {
+    "department": "Operations",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2026-06",
+    "budget_amount": 53276.96,
+    "actual_amount": 63347.32,
+    "variance_amount": 10070.36,
+    "variance_percentage": 18.9
+  },
+  {
+    "department": "Operations",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2026-06",
+    "budget_amount": 77773.36,
+    "actual_amount": 81344.79,
+    "variance_amount": 3571.43,
+    "variance_percentage": 4.59
+  },
+  {
+    "department": "Operations",
+    "account_code": "5400",
+    "account_name": "Office Supplies",
+    "period": "2026-06",
+    "budget_amount": 64645.71,
+    "actual_amount": 64200.2,
+    "variance_amount": -445.51,
+    "variance_percentage": -0.69
+  },
+  {
+    "department": "IT",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2026-06",
+    "budget_amount": 44872.2,
+    "actual_amount": 37797.5,
+    "variance_amount": -7074.7,
+    "variance_percentage": -15.77
+  },
+  {
+    "department": "IT",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2026-06",
+    "budget_amount": 10512.82,
+    "actual_amount": 10880.81,
+    "variance_amount": 367.99,
+    "variance_percentage": 3.5
+  },
+  {
+    "department": "IT",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2026-06",
+    "budget_amount": 94572.67,
+    "actual_amount": 84797.46,
+    "variance_amount": -9775.21,
+    "variance_percentage": -10.34
+  },
+  {
+    "department": "IT",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2026-06",
+    "budget_amount": 81706.15,
+    "actual_amount": 73320.7,
+    "variance_amount": -8385.44,
+    "variance_percentage": -10.26
+  },
+  {
+    "department": "IT",
+    "account_code": "5400",
+    "account_name": "Office Supplies",
+    "period": "2026-06",
+    "budget_amount": 11426.74,
+    "actual_amount": 12574.86,
+    "variance_amount": 1148.11,
+    "variance_percentage": 10.05
+  }
+]

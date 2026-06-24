@@ -1,0 +1,42 @@
+[
+  {
+    "department": "Marketing",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2024-01",
+    "budget_amount": 50000.0,
+    "actual_amount": 55000.0
+  },
+  {
+    "department": "Marketing",
+    "account_code": "5100",
+    "account_name": "Travel Expense",
+    "period": "2024-01",
+    "budget_amount": 20000.0,
+    "actual_amount": 15000.0
+  },
+  {
+    "department": "Sales",
+    "account_code": "5000",
+    "account_name": "Advertising Expense",
+    "period": "2024-01",
+    "budget_amount": 30000.0,
+    "actual_amount": 45000.0
+  },
+  {
+    "department": "R&D",
+    "account_code": "5200",
+    "account_name": "Software License",
+    "period": "2024-01",
+    "budget_amount": 100000.0,
+    "actual_amount": 120000.0
+  },
+  {
+    "department": "Operations",
+    "account_code": "5300",
+    "account_name": "Consulting Fees",
+    "period": "2024-01",
+    "budget_amount": 75000.0,
+    "actual_amount": 60000.0
+  }
+]
